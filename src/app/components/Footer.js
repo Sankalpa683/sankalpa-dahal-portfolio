@@ -102,7 +102,7 @@ export default function Footer() {
       <div className="border-t border-gray-700 mt-8 pt-6">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm text-center sm:text-left">
-            Copyright &copy; 2023 Sankalpa Dahal. All Rights Reserved.
+            Copyright &copy; 2024 Sankalpa Dahal. All Rights Reserved.
           </p>
         </div>
       </div>
