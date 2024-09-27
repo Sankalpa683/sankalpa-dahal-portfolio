@@ -24,22 +24,11 @@ To get started with this project, follow these steps:
 2. Install dependencies:
 
 npm install
-# or
-yarn install
-# or
-pnpm install
-# or
-bun install
 
 3. Run the development server:
 
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
 
 4. Open http://localhost:3000 in your browser to see the portfolio site.
 
@@ -54,9 +43,9 @@ bun dev
 
 1. React ( As Javascript Library )
 2. Next.js ( As ReactJS Framework )
-3. Tailwind CSS ( as CSS Framework )
+3. Tailwind CSS ( As CSS Framework )
 4. Node.js ( As, Javascript Runtime )
-5. Vercel (for deployment)
+5. Vercel ( for deployment )
 
 ## Deployment
 
