@@ -28,13 +28,13 @@ export default function Hero() {
             <div className="flex justify-center lg:justify-start gap-4">
               <a
                 href="#"
-                className="bg-transparent flex border gap-2 border-gray-400 text-gray-700 items-center py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-100 transition-all animate-bounce hover:animate-none"
+                className="bg-transparent flex border gap-2 border-gray-400 text-gray-700 items-center py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-100 transition-all animate-bounce"
               >
                 About me
               </a>
               <a
                 href="#"
-                className="bg-blue-500 flex items-center gap-2 text-white py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-600 transition-all animate-pulse hover:animate-none"
+                className="bg-blue-500 flex items-center gap-2 text-white py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-600 transition-all animate-pulse"
               >
                 Contact Me
                 <ArrowUpRight className="hidden sm:block" />
