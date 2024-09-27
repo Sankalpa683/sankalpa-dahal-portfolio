@@ -1,7 +1,10 @@
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
+import Cta from './components/cta';
 import Projects from './components/Projects';
+import Skills from './components/skills';
+import ContactUs from './components/contact';
 import { Sparkle } from 'lucide-react';
 
 export default function Home() {
@@ -24,6 +27,9 @@ export default function Home() {
       <main>
         <About />
         <Projects />
+        <Cta />
+        <Skills />
+        <ContactUs />
       </main>
     </>
   );

@@ -16,17 +16,17 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link href="/project" className="text-gray-400 hover:text-white">
+              <Link href="#about" className="text-gray-400 hover:text-white">
                 About
               </Link>
             </li>
             <li>
-              <Link href="/about" className="text-gray-400 hover:text-white">
+              <Link href="#projects" className="text-gray-400 hover:text-white">
                 Project
               </Link>
             </li>
             <li>
-              <Link href="/product" className="text-gray-400 hover:text-white">
+              <Link href="#skills" className="text-gray-400 hover:text-white">
                 Skills
               </Link>
             </li>
@@ -38,17 +38,17 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Services</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/services/web-design" className="text-gray-400 hover:text-white">
+              <Link href="/" className="text-gray-400 hover:text-white">
                 Web Design
               </Link>
             </li>
             <li>
-              <Link href="/services/web-development" className="text-gray-400 hover:text-white">
+              <Link href="" className="text-gray-400 hover:text-white">
                 Web Development
               </Link>
             </li>
             <li>
-              <Link href="/services/ui-visual-design" className="text-gray-400 hover:text-white">
+              <Link href="" className="text-gray-400 hover:text-white">
                 Web Security & Pentesting
               </Link>
             </li>
@@ -61,27 +61,27 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Social Media</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="https://instagram.com" className="text-gray-400 hover:text-white">
+              <Link href="https://www.instagram.com/thejuly20th/" className="text-gray-400 hover:text-white">
                 Instagram
               </Link>
             </li>
             <li>
-              <Link href="https://youtube.com" className="text-gray-400 hover:text-white">
+              <Link href="https://www.facebook.com/SankIsMe" className="text-gray-400 hover:text-white">
                 Facebook
               </Link>
             </li>
             <li>
-              <Link href="https://dribbble.com" className="text-gray-400 hover:text-white">
+              <Link href="https://x.com/masculinmaster" className="text-gray-400 hover:text-white">
                 Twitter
               </Link>
             </li>
             <li>
-              <Link href="https://github.com" className="text-gray-400 hover:text-white">
+              <Link href="https://github.com/Sankalpa683" className="text-gray-400 hover:text-white">
                 Github
               </Link>
             </li>
             <li>
-              <Link href="https://linkedin.com" className="text-gray-400 hover:text-white">
+              <Link href="https://www.linkedin.com/in/sankalpa-dahal-a4950a1a4/" className="text-gray-400 hover:text-white">
                 LinkedIn
               </Link>
             </li>

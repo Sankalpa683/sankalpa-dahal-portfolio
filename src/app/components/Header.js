@@ -1,6 +1,8 @@
 "use client"
 
 import { useState } from 'react';
+import { PhoneForwarded } from 'lucide-react';
+import Link from 'next/link';
 
 export default function Navbar() {
   // State to toggle mobile menu
@@ -42,20 +44,33 @@ export default function Navbar() {
 
         {/* Menu Links - Hidden on mobile */}
         <ul className="hidden md:flex space-x-6">
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">About</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Project</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Skills</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Contact</a></li>
+          <li><Link href="/" className="transition-colors duration-300 hover:text-blue-500">Home</Link></li>
+          <li><Link href="#about" className="transition-colors duration-300 hover:text-blue-500">About</Link></li>
+          <li><Link href="#projects" className="transition-colors duration-300 hover:text-blue-500">Project</Link></li>
+          <li><Link href="#skills" className="transition-colors duration-300 hover:text-blue-500">Skills</Link></li>
+          <li><Link href="#contact" className="transition-colors duration-300 hover:text-blue-500">Contact</Link></li>
+          <li>
+            <Link href="mailto:sank.dahal@gmail.com" className="mt-4 py-2.5 px-6 text-sm bg-indigo-500 text-white rounded-lg cursor-pointer  text-center shadow-xs transition-all duration-500 hover:bg-indigo-700">
+              Talk with Me
+            </Link>
+          </li>
         </ul>
       </div>
 
       {/* Mobile Menu - Visible on small screens */}
       <div className={`md:hidden transition-all duration-300 ease-in-out ${isMenuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}>
         <ul className="flex flex-col space-y-4 py-4 px-6">
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">About</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Project</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Skills</a></li>
-          <li><a href="#" className="hover:underline transition-colors duration-300 hover:text-blue-500">Contact</a></li>
+          <li><Link href="/" className="transition-colors duration-300 hover:text-blue-500">Home</Link></li>
+          <li><Link href="#about" className="transition-colors duration-300 hover:text-blue-500">About</Link></li>
+          <li><Link href="#projects" className="transition-colors duration-300 hover:text-blue-500">Project</Link></li>
+          <li><Link href="#skills" className="transition-colors duration-300 hover:text-blue-500">Skills</Link></li>
+          <li><Link href="#contact" className="transition-colors duration-300 hover:text-blue-500">Contact</Link></li>
+          <hr />
+          <li className='w-full flex flex-col flex-wrap justify-center items-center'>
+            <Link href="mailto:sank.dahal@gmail.com" className="mt-4 py-2.5 flex flex-wrap justify-center items-center gap-2 w-full px-6 text-sm bg-indigo-500 text-center text-white rounded-lg cursor-pointer shadow-xs transition-all duration-500 hover:bg-indigo-700">
+              <PhoneForwarded className='text-sm'/> Talk with  Me
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>
