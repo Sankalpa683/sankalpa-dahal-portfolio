@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 
 export default function Hero() {
@@ -26,19 +27,19 @@ export default function Hero() {
 
             {/* Call to Action Buttons */}
             <div className="flex justify-center lg:justify-start gap-4">
-              <a
-                href="#"
+              <Link
+                href="#about"
                 className="bg-transparent flex border gap-2 border-gray-400 text-gray-700 items-center py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-100 transition-all animate-bounce"
               >
                 About me
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="#contact"
                 className="bg-blue-500 flex items-center gap-2 text-white py-2 px-6 rounded-full text-sm sm:text-base md:text-lg hover:bg-blue-600 transition-all animate-pulse"
               >
                 Contact Me
                 <ArrowUpRight className="hidden sm:block" />
-              </a>
+              </Link>
             </div>
           </div>
 
