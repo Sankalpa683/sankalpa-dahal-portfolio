@@ -4,7 +4,7 @@ export default function ContactUs() {
   return (
     <section className="bg-white py-16 px-4 md:px-8" id="contact">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-center mb-12">Wanna contact with me? That's Cool, <span className="text-blue-500"> Just Fill this Form ;-)</span></h2>
+        <h2 className="text-3xl sm:text-4xl lg:text-4xl font-bold text-center mb-12">Interested? Awesome! <span className="text-blue-500"> Let's connect!</span></h2>
         <div className="grid grid-cols-1 gap-12">
           
           <div>
