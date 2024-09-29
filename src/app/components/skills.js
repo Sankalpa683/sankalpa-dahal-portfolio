@@ -25,7 +25,7 @@ export default function Skillset() {
                             <h2 className="font-bold text-lg">HTML & CSS</h2>
                         </div>
                         <p className="text-gray-500">
-                            Proficient in creating responsive layouts and styling using modern CSS techniques and frameworks.
+                            Proficient in creating responsive layouts and styling using modern CSS techniques and frameworks like Tailwind CSS.
                         </p>
                     </div>
 
