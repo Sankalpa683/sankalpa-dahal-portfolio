@@ -38,18 +38,18 @@ export default function Footer() {
           <h3 className="text-lg font-semibold mb-4">Services</h3>
           <ul className="space-y-2">
             <li>
-              <Link href="/" className="text-gray-400 hover:text-white">
-                Web Design
+              <Link href="https://en.wikipedia.org/wiki/Responsive_web_design" target="_blank" className="text-gray-400 hover:text-white">
+                Responsive Design
               </Link>
             </li>
             <li>
-              <Link href="" className="text-gray-400 hover:text-white">
+              <Link href="https://en.wikipedia.org/wiki/Web_development" target="_blank" className="text-gray-400 hover:text-white">
                 Web Development
               </Link>
             </li>
             <li>
-              <Link href="" className="text-gray-400 hover:text-white">
-                Web Security & Pentesting
+              <Link href="https://en.wikipedia.org/wiki/Application_security" target="_blank" className="text-gray-400 hover:text-white">
+                Web Application Security 
               </Link>
             </li>
 

@@ -5,7 +5,7 @@ import { ArrowUpRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="py-20 sm:py-10 bg-gray-50">
+    <section className="py-20 sm:py-24 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col lg:flex-row justify-between items-center">
 
@@ -43,53 +43,18 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Section: Images with Zoom-In Animation */}
-          <div className="w-full lg:w-1/2 mt-12 lg:mt-0 hidden lg:block">
-            <div className="grid grid-cols-1 min-[450px]:grid-cols-2 md:grid-cols-3 gap-8">
-              <Image
-                src="/portfolioimage/1st.jpg" // Replace with your actual image URLs
-                alt="Team member 1"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover md:mt-20 mx-auto animate-zoom-in"
-              />
-              <Image
-                src="/portfolioimage/2nd.jpg"
-                alt="Team member 2"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover mx-auto animate-zoom-in"
-              />
-              <Image
-                src="/portfolioimage/3rd.jpg"
-                alt="Team member 3"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover md:mt-20 mx-auto animate-zoom-in"
-              />
-              <Image
-                src="/logo.png"
-                alt="Team member 4"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover mx-auto animate-zoom-in"
-              />
-              <Image
-                src="/portfolioimage/5one.jpg" // Replace with your actual image URLs
-                alt="Team member 1"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover md:mt-20 mx-auto animate-zoom-in"
-              />
-              <Image
-                src="/portfolioimage/5th.jpg"
-                alt="Team member 6"
-                width={176}
-                height={224}
-                className="rounded-2xl object-cover mx-auto animate-zoom-in"
-              />
-            </div>
-          </div>
+          {/* Right Section: Single Image */}
+        <div className="w-full lg:w-1/2 mt-12 lg:mt-0 hidden lg:flex justify-center lg:justify-end">
+            <Image
+              src="/portfolioimage/5one.jpg" // Replace with your actual image URL
+              alt="Professional portrait"
+              width={550}
+              height={550}
+              className="rounded-lg object-cover shadow-lg animate-zoom-in"
+            />
+            
+
+        </div>
         </div>
       </div>
     </section>

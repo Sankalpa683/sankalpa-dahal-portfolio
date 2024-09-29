@@ -12,17 +12,19 @@ export default function Navbar() {
     <nav className="border-b sticky top-0 border-gray-300 bg-white z-50">
       <div className="flex justify-between sm:justify-around items-center py-4 px-6">
         {/* Logo */}
-        <div className="flex items-center space-x-4">
-          <img
-            src="/logo.png"
-            alt="Avatar"
-            className="w-10 h-10 rounded-full transform transition-transform duration-300 hover:scale-110"
-          />
-          <h1 className="text-xl font-semibold">
-            Sankalpa <span className="text-blue-500">Dahal</span>
-          </h1>
-        </div>
+        <Link href='/'>
+          <div className="flex items-center space-x-4">
+            <img
+              src="/logo.png"
+              alt="Avatar"
+              className="w-10 h-10 rounded-full transform transition-transform duration-300 hover:scale-110"
+            />
+            <h1 className="text-xl font-semibold">
+              Sankalpa <span className="text-blue-500">Dahal</span>
+            </h1>
+          </div>
 
+        </Link>
         {/* Hamburger Icon */}
         <div className="md:hidden">
           <button
@@ -68,7 +70,7 @@ export default function Navbar() {
           <hr />
           <li className='w-full flex flex-col flex-wrap justify-center items-center'>
             <Link href="mailto:sank.dahal@gmail.com" className="mt-4 py-2.5 flex flex-wrap justify-center items-center gap-2 w-full px-6 text-sm bg-indigo-500 text-center text-white rounded-lg cursor-pointer shadow-xs transition-all duration-500 hover:bg-indigo-700">
-              <PhoneForwarded className='text-sm'/> Talk with  Me
+              <PhoneForwarded className='text-sm' /> Talk with  Me
             </Link>
           </li>
         </ul>
