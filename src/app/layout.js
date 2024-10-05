@@ -19,7 +19,7 @@ export const metadata = {
     title: "Sankalpa Dahal - Freelance Web Developer from Nepal",
     description: "Need a skilled web developer? Sankalpa Dahal offers freelance web development services specializing in Next.js, HTML, CSS, and JavaScript.",
     image: "/banner.jpg", // Replace with your image path
-    url: "http://sankalpadahal.com/", // Your site's URL
+    url: "https://sankalpadahal.info.np/", // Your site's URL
   },
   twitter: {
     card: "summary_large_image",
@@ -55,6 +55,8 @@ export default function RootLayout({ children }) {
         <meta name="twitter:image" content={metadata.twitter.image} />
         <meta name="twitter:site" content={metadata.twitter.site} />
 
+        <meta name="google-site-verification" content="5GvW9Jrx0bMt6ru8CwzYHTN0KkSJ22Evn7NHUAjD_Ho" />
+
         {/* Favicon */}
         <link rel="icon" href="/favicon.ico" sizes="any" />
 
@@ -66,7 +68,7 @@ export default function RootLayout({ children }) {
             "name": "Sankalpa Dahal",
             "description": "Freelance web developer from Nepal specializing in modern web development technologies like Next.js, HTML, CSS, and web security.",
             "jobTitle": "Freelance Web Developer",
-            "url": "http://sankalpadahal.com/", // Replace with your site's URL
+            "url": "https://sankalpadahal.info.np/", // Replace with your site's URL
             "sameAs": [
               "https://www.linkedin.com/in/sankalpa-dahal-a4950a1a4/",
               "https://x.com/masculinmaster",
