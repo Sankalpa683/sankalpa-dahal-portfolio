@@ -18,14 +18,14 @@ export const metadata = {
   og: {
     title: "Sankalpa Dahal - Freelance Web Developer from Nepal",
     description: "Need a skilled web developer? Sankalpa Dahal offers freelance web development services specializing in Next.js, HTML, CSS, and JavaScript.",
-    image: "/banner.jpg", // Replace with your image path
+    image: "/portfolioimage/5one.jpg", // Replace with your image path
     url: "https://sankalpadahal.info.np/", // Your site's URL
   },
   twitter: {
     card: "summary_large_image",
     title: "Sankalpa Dahal - Freelance Web Developer from Nepal",
     description: "Expert freelance web developer specializing in modern web technologies like Next.js, JavaScript, and more.",
-    image: "/banner.jpg", // Replace with your image path
+    image: "/portfolioimage/5one.jpg", // Replace with your image path
     site: "@masculinmaster", // Your Twitter username
   },
 };
