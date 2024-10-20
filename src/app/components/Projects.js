@@ -12,7 +12,16 @@ const projects = [
     duration: '3 weeks',
     details: 'Developed an intuitive online booking system for a cleaning company in Sydney. The system allows users to book cleaning services, select specific options, and manage appointments through a responsive UI.'
   },
-  {
+    {
+    title: 'Informal Study',
+    description: 'A Next.js platform offering comprehensive +2 NEB notes for 12th-grade students.',
+    image: '/informalstudy.jpg',
+    link: 'https://informalstudy.info/',
+    techStack: ['Next.js', 'Tailwind CSS', 'Google Drive', 'Mantine UI'],
+    duration: '4 weeks',
+    details: 'Built a responsive educational platform for NEB 12th-grade students. It provides structured and easily accessible notes, helping students prepare for their +2 exams with a user-friendly interface.'
+  },
+    {
     title: 'Gurkha Supermarket Grocery Store',
     description: 'E-commerce platform built for an Australian grocery store, featuring a seamless shopping experience.',
     image: '/gurkhasupermarket.jpg',
