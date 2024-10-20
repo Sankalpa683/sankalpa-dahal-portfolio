@@ -25,8 +25,8 @@ const projects = [
     title: 'Gurkha Supermarket Grocery Store',
     description: 'E-commerce platform built for an Australian grocery store, featuring a seamless shopping experience.',
     image: '/gurkhasupermarket.jpg',
-    link: 'https://www.gurkhasupermarket.com/',
-    techStack: ['Next.js', 'Shadcn', 'Tailwind CSS', 'Vercel Hosting'],
+    link: 'https://gurkhastore.vercel.app/',
+    techStack: ['Next.js', 'Shadcn', 'Tailwind CSS', 'Firebase', 'Axios', 'Vercel Hosting'],
     duration: '1 month',
     details: 'Created a full e-commerce solution for an Australian grocery store. The platform supports online orders, delivery management, and product filtering, providing a streamlined shopping experience.'
   },
