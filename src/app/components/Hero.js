@@ -22,7 +22,8 @@ export default function Hero() {
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-500 max-w-xl mb-8 animate-fade-in">
-              I love designing websites and user interfaces, doing freelance work, and focusing on creating digital products that are user-friendly and visually appealing.
+              {/* I love designing websites and user interfaces, doing freelance work, and focusing on creating digital products that are user-friendly and visually appealing. */}
+              Helping growing brands, startup & businesses to gain an unfair advantage and stand out from their competitors by delivering modern real results-driven professional websites.
             </p>
 
             {/* Call to Action Buttons */}
