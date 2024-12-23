@@ -48,6 +48,15 @@ const projects = [
     duration: '2 weeks',
     details: 'A fully functional hotel and restaurant website with reservation capabilities. It’s available for purchase and customization according to specific business needs.'
   },
+  {
+    title: 'eRuchi (E. Ruchi Pvt. Ltd) - On Beta',
+    description: 'eRuchi (E. Ruchi Pvt. Ltd.) is a startup pioneering a new approach to consumer engagement in Nepal with our unique service: targeted product sampling.',
+    image: '/eruchi.png',
+    link: 'https://eruchi.vercel.app/',
+    techStack: ['Next.js', 'Tailwind CSS', 'Tanstack Query','React.js', 'Context API', 'State Management','React Hook Form', 'Zod'],
+    duration: '1.5 months',
+    details: 'A fully functional product sampling website with User Authentication, Listing Products, Taking Surveys Add to Cart e.t.c.'
+  },
 ];
 
 export default function Projects() {
