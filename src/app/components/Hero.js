@@ -18,7 +18,7 @@ export default function Hero() {
 
             {/* Slide-in animation */}
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6 animate-slide-in">
-              Jr Web Developer <span className="text-blue-500">based in Nepal</span>
+              Web Developer <span className="text-blue-500">based in Nepal</span>
             </h1>
 
             <p className="text-sm sm:text-base md:text-lg lg:text-xl text-gray-500 max-w-xl mb-8 animate-fade-in">
